@@ -5,21 +5,18 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "build": "npm install",
-    "vercel-build": "npm install"
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.6.0",
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
+    "cookie-parser": "^1.4.6",
+    "debug": "^2.6.9",
     "dotenv": "^16.4.7",
-    "express": "~4.16.1",
+    "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.12.1",
-    "morgan": "~1.9.1",
-    "vercel": "^41.4.1"
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
